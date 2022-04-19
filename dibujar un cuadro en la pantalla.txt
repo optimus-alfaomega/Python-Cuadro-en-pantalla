@@ -1,0 +1,18 @@
+print("+" + 10 * "-" + "+")
+print(("|" + " " * 10 + "|\n") * 5, end="")
+print("+" + 10 * "-" + "+")
+
+
+
+otro metodo
+# Imprimir un renglón dependiendo de las columnas
+    for _ in range(COLUMNAS+1):
+        print("+---", end="")
+    print("+")
+
+
+def imprimir_fila_de_numeros():
+    print("|   ", end="")
+    for x in range(COLUMNAS):
+        print(f"| {x+1} ", end="")
+    print("|")
